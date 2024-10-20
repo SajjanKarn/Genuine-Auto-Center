@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // Lucide icons for menu and close
+import { LucideSettings, Menu, X } from "lucide-react"; // Lucide icons for menu and close
 
 interface Link {
   href: string;
@@ -24,9 +24,12 @@ const Navbar = () => {
 
   return (
     <div className="p-5 border shadow-sm flex items-center justify-between">
-      <div>
+      <div className="relative">
         <h1 className="text-2xl md:text-3xl font-bold">
-          Genuine <span className="text-fuchsia-700">Auto Center</span>
+          <div className="flex">
+            Genuine <span className="text-fuchsia-700">Auto Center</span>
+            <LucideSettings size={18} className="animate-spin" />
+          </div>
         </h1>
       </div>
 

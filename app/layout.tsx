@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const afacad = Afacad({
   display: "swap",
   style: "normal",
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700"],
   fallback: ["sans-serif"],
   subsets: ["latin"],
   variable: "--font-afacad",
