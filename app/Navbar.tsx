@@ -26,10 +26,12 @@ const Navbar = () => {
     <div className="p-5 border shadow-sm flex items-center justify-between">
       <div className="relative">
         <h1 className="text-2xl md:text-3xl font-bold">
-          <div className="flex">
-            Genuine <span className="text-fuchsia-700">Auto Center</span>
-            <LucideSettings size={18} className="animate-spin" />
-          </div>
+          <Link href="/">
+            <div className="flex">
+              Genuine <span className="text-fuchsia-700">Auto Center</span>
+              <LucideSettings size={18} className="animate-spin" />
+            </div>
+          </Link>
         </h1>
       </div>
 
@@ -58,6 +60,7 @@ const Navbar = () => {
               key={link.href}
               href={link.href}
               className="py-2 px-4 hover:bg-gray-300 hover:text-fuchsia-800"
+              onClick={toggleSidebar}
             >
               {link.title}
             </Link>
