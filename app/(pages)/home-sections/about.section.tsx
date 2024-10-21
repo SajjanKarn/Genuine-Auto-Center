@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className="max-w-screen-xl mx-auto px-4 lg:flex lg:items-center lg:justify-between">
         {/* Left Column: Text */}
         <div className="lg:w-1/2">
-          <h2 className="text-4xl font-bold text-fuchsia-800">About Us</h2>
+          <h2 className="text-4xl font-bold">About Us</h2>
           <p className="mt-4 text-lg text-gray-700">
             At Genuine Autocenter, we provide trusted and top-tier auto care
             services, specializing in maintenance, diagnostics, and repairs. Our

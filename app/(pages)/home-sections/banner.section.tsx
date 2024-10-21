@@ -1,4 +1,5 @@
 import ButtonLink from "@/components/shared/ButtonLink";
+import PrimaryButton from "@/components/shared/PrimaryButton";
 
 const BannerSection = () => {
   return (
@@ -20,7 +21,7 @@ const BannerSection = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <ButtonLink href="/services">View Services</ButtonLink>
+            <PrimaryButton href="/services">View Services</PrimaryButton>
             <ButtonLink href="/contact" variant="outline">
               Contact Us
             </ButtonLink>

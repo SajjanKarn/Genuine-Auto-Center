@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CTASection = () => {
   return (
-    <section className="relative bg-fuchsia-800 py-16">
+    <section className="relative bg-fuchsia-800 py-16 px-3">
       <div className="text-center mx-auto max-w-screen-lg">
         <h2 className="text-4xl font-bold text-white">
           Ready for Exceptional Auto Service?

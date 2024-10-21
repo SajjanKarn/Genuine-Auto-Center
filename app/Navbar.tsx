@@ -11,7 +11,7 @@ interface Link {
 const links: Link[] = [
   { href: "/", title: "Home" },
   { href: "/about", title: "About" },
-  { href: "/services", title: "Services" },
+  { href: "/product", title: "Product" },
   { href: "/contact", title: "Contact" },
 ];
 
@@ -75,7 +75,7 @@ const Navbar = () => {
 
       {/* Links for larger screens */}
       <nav className="hidden md:block">
-        <ul className="flex items-center text-xl space-x-4">
+        <ul className="flex items-center text-xl space-x-5">
           {links.map((link) => (
             <li key={link.href}>
               <Link href={link.href} className="hover:text-fuchsia-800">
