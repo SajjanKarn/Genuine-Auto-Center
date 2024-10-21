@@ -5,7 +5,7 @@ import {
   CTASection,
   FAQSection,
   ContactSection,
-} from "./home-sections";
+} from "./_home-sections";
 
 export const metadata: Metadata = {
   title: "Genuine Auto Center | Home",
